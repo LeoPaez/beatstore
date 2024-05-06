@@ -1,0 +1,103 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "img": "/assets/img/genre-img-1.jpg",
+      "title": "Trap"
+    },
+    {
+      "id": 2,
+      "img": "/assets/img/genre-img-2.jpg",
+      "title": "R&B"
+    },
+    {
+      "id": 3,
+      "img": "/assets/img/genre-img-3.jpg",
+      "title": "House"
+    },
+    {
+      "id": 4,
+      "img": "/assets/img/genre-img-4.jpg",
+      "title": "Hip-Hop"
+    },
+    {
+      "id": 5,
+      "img": "/assets/img/genre-img-5.jpg",
+      "title": "Electronica"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "title": "Travis Scott",
+      "typeBeatsQuantity": "167",
+      "img": "/assets/img/travis.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Duki",
+      "typeBeatsQuantity": "231",
+      "img": "/assets/img/duki.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bad Bunny",
+      "typeBeatsQuantity": "192",
+      "img": "/assets/img/bad-bunny.webp"
+    },
+    {
+      "id": 4,
+      "title": "Ysy A",
+      "typeBeatsQuantity": "265",
+      "img": "/assets/img/ysy.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Spinetta",
+      "typeBeatsQuantity": "124",
+      "img": "/assets/img/spinetta.jpg"
+    }
+  ],
+  "beatsInTendencies": [
+    {
+      "id": 1,
+      "title": "Nombre",
+      "user": "Usuario",
+      "price": "0",
+      "bpm": "170",
+      "img": "/assets/img/beat-img-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Nombre",
+      "user": "Usuario",
+      "price": "0",
+      "bpm": "170",
+      "img": "/assets/img/beat-img-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Nombre",
+      "user": "Usuario",
+      "price": "0",
+      "bpm": "170",
+      "img": "/assets/img/beat-img-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Nombre",
+      "user": "Usuario",
+      "price": "0",
+      "bpm": "170",
+      "img": "/assets/img/beat-img-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Nombre",
+      "user": "Usuario",
+      "price": "0",
+      "bpm": "170",
+      "img": "/assets/img/beat-img-5.png"
+    }
+  ]
+}
