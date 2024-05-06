@@ -16,7 +16,7 @@ const FooterItemsContainer = styled.div`
   justify-content: space-between;
   border-top: 1px solid #495057;
   border-bottom: 1px solid #495057;
-  margin: 200px 240px 0;
+  margin: 200px 300px 0;
   padding: 60px;
 `
 

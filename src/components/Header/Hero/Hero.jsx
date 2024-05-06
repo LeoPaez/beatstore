@@ -9,7 +9,7 @@ const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 70vh;
-  margin-left: 240px;
+  margin-left: 300px;
   gap: 30px;
 `
 const HeroTitle = styled.h1`
