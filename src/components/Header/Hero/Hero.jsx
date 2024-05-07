@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { Button } from "../Navbar/Nav"
 
 import SearchIcon from "/assets/img/search-icon.png"
+import { Wrapper } from "../../../App"
 
 const HeroContainer = styled.div`
   position: relative;
@@ -9,7 +10,6 @@ const HeroContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 70vh;
-  margin-left: 300px;
   gap: 30px;
 `
 const HeroTitle = styled.h1`
@@ -93,7 +93,7 @@ const HeroButton = styled(Button)`
 
 const Hero = () => {
   return (
-    <>
+    <Wrapper>
       <HeroContainer>
         <HeroTitle>
           <span>Compra</span> y <span>Vende Beats</span> <br />
@@ -123,7 +123,7 @@ const Hero = () => {
           <HeroButton>Vender</HeroButton>
         </HeroButtons>
       </HeroContainer>
-    </>
+    </Wrapper>
   )
 }
 

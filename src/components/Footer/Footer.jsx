@@ -9,6 +9,7 @@ import SendIcon from "/assets/img/send-icon.png"
 const FooterContainer = styled.footer`
   display: flex;
   flex-direction: column;
+  margin-top: 200px;
 `
 
 const FooterItemsContainer = styled.div`
@@ -16,7 +17,6 @@ const FooterItemsContainer = styled.div`
   justify-content: space-between;
   border-top: 1px solid #495057;
   border-bottom: 1px solid #495057;
-  margin: 200px 300px 0;
   padding: 60px;
 `
 

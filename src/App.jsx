@@ -12,8 +12,10 @@ function App() {
   return (
     <>
       <Header />
-      <Catalogue />
-      <Footer />
+      <Wrapper>
+        <Catalogue />
+        <Footer />
+      </Wrapper>
     </>
   )
 }
