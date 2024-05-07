@@ -58,7 +58,7 @@ const Nav = () => {
           <NavItems>
             <NavLinks>
               <NavLink href="#">Inicio</NavLink>
-              <NavLink href="#">Generos</NavLink>
+              <NavLink href="#">Catalogo</NavLink>
               <NavLink href="#">Beats</NavLink>
             </NavLinks>
             <NavButton>Login</NavButton>
