@@ -41,10 +41,9 @@ const NavLink = styled.a`
   }
 `
 const NavButton = styled(Button)`
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 1px;
-  border: 2px solid #7B2CBF;
   padding-block: 8px;
 `
 
