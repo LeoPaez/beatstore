@@ -1,7 +1,9 @@
 import styled from "styled-components"
 import { CategorySlider } from "./CategorySlider/CategorySlider"
 import categories from "../../data/categories.json"
-import { CategoryCard } from "./CategoryCard/CategoryCard"
+import { CategoryCard } from "./CategoryCards/CategoryCard"
+import { ArtistCard } from "./CategoryCards/ArtistCard"
+import { BeatCard } from "./CategoryCards/BeatCard"
 
 const CatalogueContainer = styled.section`
   display: flex;
@@ -22,10 +24,12 @@ export const Catalogue = () => {
       >
         {
           genres.map((item) => {
+            // CategoryCard es la card de cada item de una categoria,
+            // se adapta a cada categoria, como por ej: ArtistCard
             return <CategoryCard
               key={item.id}
-              title={item.title}
               src={item.img}
+              title={item.title}
             />
           })
         }
@@ -35,12 +39,11 @@ export const Catalogue = () => {
       >
         {
           artists.map((item) => {
-            return <CategoryCard
+            return <ArtistCard
               key={item.id}
-              title={item.title}
               src={item.img}
-              rounded
-              textCenter
+              title={item.title}
+              quantity={item.typeBeatsQuantity}
             />
           })
         }
@@ -50,10 +53,13 @@ export const Catalogue = () => {
       >
         {
           beatsInTendencies.map((item) => {
-            return <CategoryCard
+            return <BeatCard
               key={item.id}
-              title={item.title}
               src={item.img}
+              title={item.title}
+              user={item.user}
+              price={item.price}
+              bpm={item.bpm}
             />
           })
         }
