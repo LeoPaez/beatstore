@@ -2,32 +2,12 @@ import styled from "styled-components"
 import ArrowLeftIcon from "/assets/img/arrow-left-icon.png"
 import ArrowRightIcon from "/assets/img/arrow-right-icon.png"
 
-//* Generos
-import GenreImg1 from "/assets/img/genre-img-1.jpg"
-import GenreImg2 from "/assets/img/genre-img-2.jpg"
-import GenreImg3 from "/assets/img/genre-img-3.jpg"
-import GenreImg4 from "/assets/img/genre-img-4.jpg"
-import GenreImg5 from "/assets/img/genre-img-5.jpg"
-
-//* Artistas
-import TravisImg from "/assets/img/travis.jpg"
-import DukiImg from "/assets/img/duki.jpg"
-import YsyImg from "/assets/img/ysy.jpg"
-
-//* Beats
-import BeatImg1 from "/assets/img/beat-img-1.png"
-import BeatImg2 from "/assets/img/beat-img-2.png"
-import BeatImg3 from "/assets/img/beat-img-3.png"
-import BeatImg4 from "/assets/img/beat-img-4.png"
-import BeatImg5 from "/assets/img/beat-img-5.png"
-
 const CategoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #FFF;
-  padding: 0 300px;
   position: relative;
   gap: 40px;
 `
