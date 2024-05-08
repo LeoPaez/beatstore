@@ -1,6 +1,4 @@
 import styled from "styled-components"
-import ArrowLeftIcon from "/assets/img/arrow-left-icon.png"
-import ArrowRightIcon from "/assets/img/arrow-right-icon.png"
 
 const CategoryContainer = styled.div`
   display: flex;
@@ -11,33 +9,22 @@ const CategoryContainer = styled.div`
   position: relative;
   gap: 40px;
 `
+
 const CategoryInfo = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-`
-const CategoryNavigation = styled.div`
-  display: flex;
-  gap: 10px;
-`
-const CategoryButton = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
-  border: 2px solid #FFF;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  &:first-of-type {
-    opacity: 0.4;
+  align-items: end;
+  h2 {
+    font-size: 21px;
   }
-  img {
-    width: 16px;
+  a {
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 14px;
   }
 `
+
 const CategoryCards = styled.div`
   display: flex;
   justify-content: center;
@@ -51,14 +38,7 @@ export const CategorySlider = ({ children, title }) => {
       <CategoryContainer>
         <CategoryInfo>
           <h2>{title}</h2>
-          <CategoryNavigation>
-            <CategoryButton>
-              <img src={ArrowLeftIcon} alt="icono flecha izquierda" />
-            </CategoryButton>
-            <CategoryButton>
-              <img src={ArrowRightIcon} alt="icono flecha derecha" />
-            </CategoryButton>
-          </CategoryNavigation>
+          <a href="#">Mostrar todo</a>
         </CategoryInfo>
         <CategoryCards>
           {children}
