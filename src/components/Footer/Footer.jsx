@@ -29,19 +29,22 @@ const FooterItem = styled.div`
     gap: 0;
   }
   h2 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
     margin: 20px 0 10px;
     opacity: 0.9;
   }
   h3 {
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 700;
   }
   h4 {
+    font-size: 15px;
     opacity: 0.8;
   }
   p, a {
     opacity: 0.8;
+    font-size: 15px;
   }
   a:hover {
     text-decoration: underline;
@@ -96,6 +99,7 @@ const FooterNewsletter = styled.form`
   }
 `
 const FooterRights = styled.p`
+  font-size: 14px;
   color: #FFF;
   text-align: center;
   padding: 20px;
