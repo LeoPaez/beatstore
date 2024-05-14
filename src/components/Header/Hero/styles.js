@@ -143,4 +143,9 @@ export const HeroButton = styled(Button)`
   &:hover {
     background-color: #a514a5;
   }
+
+  @media (max-width: 500px){
+    font-size: 15px;
+    padding: 10px 30px;
+  }
 `
