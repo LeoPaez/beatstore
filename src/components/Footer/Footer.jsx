@@ -15,13 +15,13 @@ const Footer = () => {
           <LogoText src={BeatstoreLogoText} alt="beatstore logo text" />
           <h2>Seguinos</h2>
           <FooterSocial>
-            <FooterSocialIconContainer>
+            <FooterSocialIconContainer href="#">
               <FooterSocialIcon src={InstagramIcon} alt="icono instagram" />
             </FooterSocialIconContainer>
-            <FooterSocialIconContainer>
+            <FooterSocialIconContainer href="#">
               <FooterSocialIcon src={TwitterIcon} alt="icono twitter" />
             </FooterSocialIconContainer>
-            <FooterSocialIconContainer>
+            <FooterSocialIconContainer href="#">
               <FooterSocialIcon src={YoutubeIcon} alt="icono youtube" />
             </FooterSocialIconContainer>
           </FooterSocial>

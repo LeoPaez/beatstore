@@ -12,6 +12,7 @@ export const FooterItemsContainer = styled.div`
   border-top: 1px solid #495057;
   border-bottom: 1px solid #495057;
   padding: 60px;
+
   @media (max-width: 1300px){
     padding-inline: 20px;
   }
@@ -35,6 +36,9 @@ export const FooterItem = styled.div`
   gap: 10px;
   &:first-of-type {
     gap: 0;
+    a {
+      opacity: 1;
+    }
   }
   h2 {
     font-size: 18px;
@@ -71,7 +75,7 @@ export const FooterSocial = styled.div`
   display: flex;
   gap: 16px;
 `
-export const FooterSocialIconContainer = styled.div`
+export const FooterSocialIconContainer = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
