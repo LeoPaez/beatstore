@@ -1,5 +1,5 @@
-import { CategoryCardSpan, CategoryCardText } from "./ArtistCard"
 import { CategoryCard } from "./CategoryCard"
+import { CategoryCardSpan, CategoryCardText } from "./styles"
 
 export const BeatCard = ({ src, title, user, price, bpm }) => {
   return (
@@ -12,6 +12,7 @@ export const BeatCard = ({ src, title, user, price, bpm }) => {
         $textSize="15px"
         $fontWeight="700"
         $marginTop="-2px"
+        $cursorPointer
       >{user}</CategoryCardText>
       <CategoryCardText $fontWeight="700" $marginTop="-4px">
         ${price}

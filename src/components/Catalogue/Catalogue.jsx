@@ -1,15 +1,9 @@
-import styled from "styled-components"
 import { CategorySlider } from "./CategorySlider/CategorySlider"
 import categories from "../../data/categories.json"
 import { CategoryCard } from "./CategoryCards/CategoryCard"
 import { ArtistCard } from "./CategoryCards/ArtistCard"
 import { BeatCard } from "./CategoryCards/BeatCard"
-
-const CatalogueContainer = styled.section`
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-`
+import { CatalogueContainer } from "./styles"
 
 export const Catalogue = () => {
   const genres = categories.genres
