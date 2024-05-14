@@ -23,7 +23,7 @@ export const StyledBurger = styled.div`
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
-    opacity: 0.7;
+    opacity: 0.8;
 
     :first-child {
       transform: ${({ open }) => open ? 'rotate(47deg)' : 'rotate(0)'};
