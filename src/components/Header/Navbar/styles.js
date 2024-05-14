@@ -21,6 +21,13 @@ export const NavContainer = styled.nav`
 `
 export const NavLogo = styled.img`
   width: 64px;
+
+  @media (max-width: 800px){
+    width: 56px;
+  }
+  @media (max-width: 600px){
+    width: 50px;
+  }
 `
 export const NavItems = styled.div`
   display: flex;
@@ -30,6 +37,9 @@ export const NavItems = styled.div`
   }
   @media (max-width: 800px){
     gap: 30px;
+  }
+  @media (max-width: 600px){
+    gap: 20px;
   }
 `
 export const NavLinks = styled.div`
@@ -52,4 +62,8 @@ export const NavButton = styled(Button)`
   font-weight: 700;
   letter-spacing: 1px;
   padding-block: 8px;
+
+  @media (max-width: 600px){
+    font-size: 13px;
+  }
 `
