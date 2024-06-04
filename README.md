@@ -14,5 +14,5 @@
 [Link del proyecto en producción](https://beatstore-seven.vercel.app/)
 
 <p align="center">
-  <img src="https://i.ibb.co/JBCPRcW/beatstore.webp" alt="Foto del proyecto">
+  <img src="https://i.ibb.co/xjNsYqK/Beat-Store.png" alt="Foto del proyecto">
 </p>
